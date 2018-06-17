@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SubSettings</class>
+ <widget class="QWidget" name="SubSettings">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>647</width>
+    <height>197</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QFrame" name="frame">
+       <property name="styleSheet">
+        <string notr="true">QFrame
+{
+background-color:#1b1d25;
+}</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>19</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+color:#8497a8;
+}</string>
+        </property>
+        <property name="text">
+         <string>Auto-Lanuch Software on Startup</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>59</y>
+          <width>181</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+color:#8497a8;
+}</string>
+        </property>
+        <property name="text">
+         <string>Auto-Connect when Software starts</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>16</y>
+          <width>221</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+color:#8497a8;
+}</string>
+        </property>
+        <property name="text">
+         <string>Auto-Connect when using a Unsecured WIFI </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>58</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+color:#8497a8;
+}</string>
+        </property>
+        <property name="text">
+         <string>Kill Internet when VPN Disconnects</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>96</y>
+          <width>181</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+color:#8497a8;
+}</string>
+        </property>
+        <property name="text">
+         <string>Re-Connect when connection drops</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>96</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>7</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel
+{
+color:#8497a8;
+}</string>
+        </property>
+        <property name="text">
+         <string>Alerts &amp; Notifications popup</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="cancel">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>145</y>
+          <width>101</width>
+          <height>35</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+background-color:#1b1d25;
+border-radius:17px;
+border-style:solid;
+color:#c4c5c9;
+border:1px solid #374150;
+padding-left:5px;
+padding-right:5px;
+
+}</string>
+        </property>
+        <property name="text">
+         <string>Cancel</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="save">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>145</y>
+          <width>101</width>
+          <height>35</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>8</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+background-color:#1b1d25;
+border-radius:17px;
+border-style:solid;
+color:#c4c5c9;
+border:1px solid #ffb400;
+padding-left:5px;
+padding-right:5px;
+
+}</string>
+        </property>
+        <property name="text">
+         <string>Save</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="startupCheckBox">
+        <property name="geometry">
+         <rect>
+          <x>219</x>
+          <y>15</y>
+          <width>57</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	border:0px;
+
+border-image: url(:/resources/img/offstatus.PNG);
+
+image-position: left;
+text-align: left;
+}
+QPushButton:checked
+{
+
+border-image: url(:/resources/img/onstatus.PNG);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="autoConnectCheckBox">
+        <property name="geometry">
+         <rect>
+          <x>218</x>
+          <y>56</y>
+          <width>57</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	border:0px;
+
+border-image: url(:/resources/img/offstatus.PNG);
+
+image-position: left;
+text-align: left;
+}
+QPushButton:checked
+{
+
+border-image: url(:/resources/img/onstatus.PNG);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="reconnectCheckBox">
+        <property name="geometry">
+         <rect>
+          <x>218</x>
+          <y>96</y>
+          <width>57</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	border:0px;
+color:#ffb400;
+border-image: url(:/resources/img/offstatus.PNG);
+
+image-position: left;
+text-align: left;
+}
+QPushButton:checked
+{
+color:#ffb400;
+image: url(:/resources/img/onstatus.PNG);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="auto_launch_4">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>94</y>
+          <width>57</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	border:0px;
+
+border-image: url(:/resources/img/offstatus.PNG);
+
+image-position: left;
+text-align: left;
+}
+QPushButton:checked
+{
+
+border-image: url(:/resources/img/onstatus.PNG);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+        <property name="checked">
+         <bool>false</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="killSwitchCheckBox">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>54</y>
+          <width>57</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	border:0px;
+
+border-image: url(:/resources/img/offstatus.PNG);
+
+image-position: left;
+text-align: left;
+}
+QPushButton:checked
+{
+
+border-image: url(:/resources/img/onstatus.PNG);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="insecureWifiCheckBox">
+        <property name="geometry">
+         <rect>
+          <x>560</x>
+          <y>14</y>
+          <width>57</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton
+{
+	border:0px;
+
+border-image: url(:/resources/img/offstatus.PNG);
+
+image-position: left;
+text-align: left;
+}
+QPushButton:checked
+{
+
+border-image: url(:/resources/img/onstatus.PNG);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

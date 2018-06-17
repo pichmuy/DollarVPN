@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConnectPage</class>
+ <widget class="QWidget" name="ConnectPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>0</y>
+     <width>891</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame
+{
+background-color:#1c1d25;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="welclabel">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>14</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>7</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+color:#ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Connect to a server to stay anonymous</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logout">
+    <property name="geometry">
+     <rect>
+      <x>836</x>
+      <y>7</y>
+      <width>49</width>
+      <height>47</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-color:#1c1d25;
+border:#1c1d25;
+color:#949193;
+image: url(:/resources/img/logout.PNG);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="distop">
+    <property name="geometry">
+     <rect>
+      <x>612</x>
+      <y>13</y>
+      <width>31</width>
+      <height>35</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+image: url(:/resources/img/dis_top.PNG);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connected_label">
+    <property name="geometry">
+     <rect>
+      <x>607</x>
+      <y>9</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+image: url(:/resources/img/connected.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>60</y>
+     <width>891</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame
+{
+background-color:#242533;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>110</y>
+      <width>901</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QListWidget" name="listWidget">
+       <property name="styleSheet">
+        <string notr="true">QListWidget
+{
+background-color:#242533;
+border:#242533;
+}
+QScrollBar:vertical {              
+		background-color:#ffa800;
+        width:8px;    
+		border-bottom-right-radius:4px;
+		border-bottom-left-radius: 4px;
+}
+QScrollBar::handle:vertical {
+		background:transparent;
+		border-bottom-right-radius: 4px;
+		border-bottom-left-radius: 4px;
+}
+QScrollBar::sub-page:vertical {
+    background: #2b2d3c;
+}
+
+QScrollBar::add-page:vertical {
+    background:#2b2d3c;
+}
+QScrollBar::down-arrow:vertical{    
+height:0px;
+}
+QScrollBar::up-arrow:vertical {
+height:0px;
+}
+   
+
+</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="country_sort">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>64</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-color:#242533;
+color:#979696;
+border:#242533;
+}</string>
+    </property>
+    <property name="text">
+     <string>Server Country</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="name">
+    <property name="geometry">
+     <rect>
+      <x>167</x>
+      <y>65</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-color:#242533;
+color:#979696;
+border:#242533;
+}</string>
+    </property>
+    <property name="text">
+     <string>Server Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="encryption">
+    <property name="geometry">
+     <rect>
+      <x>312</x>
+      <y>65</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-color:#242533;
+color:#979696;
+border:#242533;
+}</string>
+    </property>
+    <property name="text">
+     <string>Server Encryption</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="load">
+    <property name="geometry">
+     <rect>
+      <x>528</x>
+      <y>64</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-color:#242533;
+color:#979696;
+border:#242533;
+}</string>
+    </property>
+    <property name="text">
+     <string>Server Load</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="all">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>101</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+background-color:#242533;
+color:#ffffff;
+border:#242533;
+}</string>
+    </property>
+    <property name="text">
+     <string>All Servers(1)</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>211</width>
+     <height>701</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame
+{
+background-color:#1c1d25;
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="Logolabel">
+    <property name="geometry">
+     <rect>
+      <x>36</x>
+      <y>20</y>
+      <width>131</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+image: url(:/resources/img/logo1.png);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="connlabel">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>215</y>
+      <width>41</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+image: url(:/resources/img/conn2.PNG);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="portlabel">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>270</y>
+      <width>41</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+image: url(:/resources/img/port1.PNG);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dashlabel">
+    <property name="geometry">
+     <rect>
+      <x>14</x>
+      <y>327</y>
+      <width>30</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel
+{
+image: url(:/resources/img/software3.PNG);
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>199</y>
+      <width>211</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+color:#ffb400;
+border:0px solid #000000;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>             CONNECT TO SERVER</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ToPort">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>256</y>
+      <width>211</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+color:#445163;
+border:0.1em solid #171920;
+}</string>
+    </property>
+    <property name="text">
+     <string>PORTFORWARD  </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>309</y>
+      <width>211</width>
+      <height>57</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+color:#445163;
+border:0px solid #000000;
+}</string>
+    </property>
+    <property name="text">
+     <string>          SOFTWARE SETTINGS</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
